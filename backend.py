@@ -17,7 +17,7 @@ else:
 
     
 Unit = input( "I for Inches or C Centimeters: ")
-if unit.upper() != 'I' or unit.upper() != 'C':
+if unit.upper() != 'I' or unit.upper() != 'i':
     print("you need to enter a valid Unit")
     
 

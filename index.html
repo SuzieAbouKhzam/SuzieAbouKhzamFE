@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body class="design">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <title>BMI Calculator</title>
+    <style>
+    body.design{
+      background-color: beige;
+    
+    }
+
+
+    button.Calculate{
+      font-size: medium;
+      color: rgb(64, 45, 85);
+      
+    }
+    p.inputs{
+      font-style: italic;
+      font-size: medium;
+      color: blue;
+
+    }
+   
+    table.table{
+      background-color: rgb(207, 207, 207);
+    }
+
+    h1.title{
+      color: blue;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">BMI Calculator</h1>
+    <p class="inputs">Enter your weight <input type="Please enter you weight in Kgs"></p>
+    <p class="inputs">Enter your height <input type="Please enter you hieght in M"></p>
+    <button class="Calculate"> Calculate! </button>
+    
+    
+    <p> Check which Condition are you in the bellow table !</p>
+    <table class="table" border="1px">
+      <tr> <th>Body Condition</th>
+        <td>under weight</td>
+        <td>Normal weight</td>
+        <td>over weight</td>
+        <td>Obese</td>
+      </tr>
+      <tr> <th>Standard BMI ranges</th>
+        <td>BMI less than 18.5 </td>
+        <td>BMI Between 18.5 & 24.9 </td>
+        <td>BMI Between 25 & 29.9 </td>
+        <td>BMI Greator or equal to 30</td>
+      </tr>
+
+    
+    </table>
+
+
+
+  </body>
+</html>
